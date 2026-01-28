@@ -1,4 +1,4 @@
-import styles from "./Sidebar.module.scss";
+import styles from "./SideBar.module.scss";
 import { useState } from "react";
 
 const menuItems = [
