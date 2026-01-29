@@ -35,26 +35,6 @@
     flex: 1;
     max-width: 280px;
 
-    input {
-      width: 100%;
-      padding: 10px 14px 10px 42px;
-      border: 1px solid $border;
-      border-radius: 8px;
-      font-size: clamp(11px, 2.1vw, 12px);
-      outline: none;
-      background: $bg;
-      transition: border-color 0.2s;
-
-      &::placeholder {
-        color: $light-gray;
-      }
-
-      &:focus {
-        border-color: $primary;
-        box-shadow: 0 0 0 2.5px rgba($primary, 0.15);
-      }
-    }
-
     .searchIcon {
       position: absolute;
       left: 14px;
